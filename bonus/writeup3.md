@@ -6,17 +6,19 @@ since we have an image of that boot2root system which is in the ISO given
 user `zaz` (from what the root user were typing when costumizing the image)
 
 #### steps : 
-- mount the iso image and go to the mount folder
+- mount the iso image and go to the mount folder.
+
     ![iso mount](../img/isomounted.png)
-- open the casper file, you will find something there (hhhhh of course u will find something)
+- open the casper file, you will find something there (hhhhh of course u will find something).
     ![casper folder](../img/casper_folder.png)
-- copy the `filesystem.squashfs` file outside the mount folder because we cant operate there due to permissions `mkdir ~/Desktop/tmp && cp filesystem.squashfs ~/Desktop/tmp && cd ~/Desktop/tmp`
-- execute the following command **`sudo unsquashfs -f -max 4 filesystem.squashfs`**
+- copy the `filesystem.squashfs` file outside the mount folder because we cant operate there due to permissions `mkdir ~/Desktop/tmp && cp filesystem.squashfs ~/Desktop/tmp && cd ~/Desktop/tmp`.
+- execute the following command **`sudo unsquashfs -f -max 4 filesystem.squashfs`**.
     ![unsquachs](../img/unsquach.png)
-- notice that we got a new fodler called `squashfs-root`
-- chmod it as well as the `root` folder to get permission to list items inside
+- notice that we got a new fodler called `squashfs-root`.
+- chmod it as well as the `root` folder to get permission to list items inside.
     ![beforerootfolder](../img/beforerootfolder.png)
-- go inside the root folder
+- go inside the root folder.
+
     ![rootfolder](../img/rootfolder.png)
 - read the `.bash_history` file that contains the history of commands executed on the shell, after some time of searching we notice an `adduser` command with the name `zaz` and the password `646da671ca01bb5d84dbb5fb2238dc8e`
     ![bashHistory](../img/bashHistory.png)
