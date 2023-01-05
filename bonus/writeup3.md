@@ -31,7 +31,12 @@ user `zaz` (from what the root user were typing when costumizing the image)
 - log with it, we get into the user zaz shell, an `exploit_me` executable is there, you can exploit it and congrats you get the root shell.
 
 
-
+#### Command params explanation:
+***`sudo unsquashfs -f -max 4 filesystem.squashfs`***
+- -f, -force
+    - if file already exists then overwrite.
+- -max LEVELS, -max-depth LEVELS
+    - descend at most LEVELS of directories when extracting or listing.
 #### Ressources:
 - the command `unsquashfs` : https://manpages.debian.org/testing/squashfs-tools/unsquashfs.1.en.html
 - What is `filesystem.squashfs` : https://unix.stackexchange.com/questions/287446/what-is-filesystem-squashfs-and-why-does-it-take-so-long-to-load-on-to-bootable
