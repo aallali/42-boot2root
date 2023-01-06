@@ -4,8 +4,8 @@ Security Challenge.In a group, search for various means to pass root on the ISO 
 
 Direct links:
 - Primary Part :
-    - writeup 1
-    - writeup 2
+    - [writeup 1](./mandatory/writeup1.md)
+    - [writeup 2](./mandatory/writeup2.md)
 - Bonus Part :
     - [writeup 3](./bonus/writeup3.md)
     - [writeup 4](./bonus/writeup4.md)
@@ -14,6 +14,6 @@ Direct links:
 Team :
 - primary part :
     - Abderrahmane **Mya** ([amya](https://profile.intra.42.fr/users/amya))
-    - Azeddine **El Makkaoui** ([ael-makk](https://profile.intra.42.fr/users/ael-makk))
+    - Abdellah **Allali** ([aallali](https://profile.intra.42.fr/users/aallali))
 - bonus part : 
     - Abdellah **Allali** ([aallali](https://profile.intra.42.fr/users/aallali))

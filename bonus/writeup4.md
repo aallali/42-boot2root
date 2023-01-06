@@ -5,4 +5,4 @@ for this exploit, we will use the pre boot phase to run a command.
 - enter the following command : `live init=/bin/bash`
 - congrats the shell :)
 
-![vm screenshot](../img/bootRootShell.png)
+![vm screenshot](./img/bootRootShell.png)
